@@ -1,0 +1,1 @@
+The PHP 8.5 job currently checks source syntax only. This checkout supports TYPO3 6.2–7 and has no Composer runtime or integration test harness. Passing syntax lint is not proof that these historical TYPO3 APIs work on PHP 8.5. Keep the PR as a draft until the actual supported framework runtime and extension behavior are validated. The existing TYPO3 support range is retained.
